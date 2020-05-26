@@ -46,8 +46,8 @@ print(model.summary())
 
 from keras.preprocessing.image import ImageDataGenerator
 
-train_data_dir = 'C:\\Users\\SHIVANSU PANDEY\\Desktop\\task3\\Data\\train\\'
-validation_data_dir = 'C:\\Users\\SHIVANSU PANDEY\\Desktop\\task3\\Data\\validation\\'
+train_data_dir = 'Desktop/FACE/Data/train/'
+validation_data_dir = 'Desktop/Data/validation/'
 
 # Let's use some data augmentaiton 
 train_datagen = ImageDataGenerator(
