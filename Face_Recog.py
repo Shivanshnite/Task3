@@ -103,7 +103,7 @@ nb_train_samples = 95
 nb_validation_samples = 5
 
 # We only train 5 EPOCHS 
-epochs = 10
+epochs = 4
 batch_size = 32
 
 history = model.fit_generator(
